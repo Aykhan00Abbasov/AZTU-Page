@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onlayn apellyasiya</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/apelasiya/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/apelasiya/font hamisi.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/apelasiya/info-style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/apelasiya/esas css.css"
+    />
+  </head>
+  <body>
+    <div class="form-body">
+      <div class="row">
+        <div class="img-holder">
+          <div class="bg"></div>
+          <div class="info-holder">
+            <h3>Tələbələrin nəzərinə!</h3>
+            <p>
+              Azərbaycan Texniki Universitetinin, “2022/2023-ci tədris ilində
+              Apellyasiya Komissiyasının yaradılması haqqında” 24 dekabr 2021-ci
+              il tarixli 211-müx nömrəli əmri ilə apellyasiya komissiyası
+              yaradılmışdır. Apellyasiya Komissiyasına yarana biləcək
+              şikayətlərin operativ həll edilməsi üçün aşağıda qeydiyyatdan
+              keçməniz və yaranacaq elektron kabinetdən müraciət etməniz xahiş
+              olunur.<br /><br />
+              Apellyasiya komissiyası. Qeyd: a) İmtahanda 10 (on) baldan az bal
+              toplayan tələbəyə (magistranta) Apellyasiya Komissiyasına müraciət
+              etmək hüququ verilmir;<br />
+              b) Tələbə (magistrant) ona verilən qiymətlə razı olmadığı halda,
+              imtahanın nəticələri elan edildiyi gündən etibarən 2 (iki) iş günü
+              müddətində Apellyasiya Komissiyasının sədrinin adına yazılmış
+              ərizə ilə (elektron formada) müraciət edilir;<br />
+              c) Eyni fəndən Apellyasiya Komissiyasına tələbə ancaq bir dəfə
+              müraciət edə bilər.
+            </p>
+          </div>
+        </div>
+        <div class="form-holder">
+          <div class="form-content">
+            <div class="form-items">
+              <div class="page-links">
+                <a href="/Account/Login" class="active">Login</a
+                ><a href="/Account/Register">Qeydiyyatdan keç</a>
+              </div>
+              <p style="word-break: break-all">
+                Sistemə daxil olmaq üçün qeydiyyatdan keçib email və parolunuzu
+                daxil edin.
+              </p>
+              <form action="/" method="post">
+                <div
+                  class="validation-summary-valid text-danger"
+                  data-valmsg-summary="true"
+                >
+                  <ul>
+                    <li style="display: none"></li>
+                  </ul>
+                </div>
+                <input
+                  name="__RequestVerificationToken"
+                  type="hidden"
+                  value="E6mBgyYKxPZ8xZ9VCx8Ve-MJlN0oy-WMv9wEUjztRIaK-CgT6PCBfzxwMhbKhjV3GM_cCz69PrrXbQcBmWNwUyfZ7I12h-F8YXLoTgiZKLs1"
+                />
+                <input
+                  class="form-control"
+                  type="text"
+                  name="Email"
+                  placeholder="Email"
+                  required
+                />
+                <span
+                  class="field-validation-valid text-danger"
+                  data-valmsg-for="Email"
+                  data-valmsg-replace="true"
+                ></span>
+                <input
+                  class="form-control"
+                  type="password"
+                  name="Password"
+                  placeholder="Parol"
+                  required
+                />
+                <span
+                  class="field-validation-valid text-danger"
+                  data-valmsg-for="Password"
+                  data-valmsg-replace="true"
+                ></span>
+                <div class="form-button">
+                  <button id="submit" type="submit" class="ibtn">
+                    Daxil ol
+                  </button>
+                  <a href="/Account/ForgotPassword">Parolun bərpası?</a>
+                </div>
+              </form>
+              <div class="other-links"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/Content/login/js/jquery.min.js"></script>
+    <script src="/Content/login/js/popper.min.js"></script>
+    <script src="/Content/login/js/bootstrap.min.js"></script>
+    <script src="/Content/login/js/main.js"></script>
+  </body>
+</html>

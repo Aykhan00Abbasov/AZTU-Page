@@ -1,0 +1,100 @@
+.box {
+  width: 500px;
+  margin: 80px auto;
+  border: 1px solid #dddcdc;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 50px;
+}
+
+.dropdownNavHaqqimizda,
+.dropdownNavEdu,
+.dropdownNavTeqdiqat,
+.dropdownNavSosial {
+  display: none;
+  position: absolute;
+  left: -60px;
+  z-index: 1000;
+}
+
+.navigate {
+  background-color: #f9f9f9;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.dropdownNavHaqqimizda ul li .navigate a,
+.education ul li .navigate a,
+.dropdownNavTeqdiqat ul li .navigate a,
+.dropdownNavSosial ul li .navigate a {
+  font-size: 14px;
+  display: block;
+  color: black;
+  width: 200px;
+  padding: 5px;
+}
+
+.dropdownNavHaqqimizda ul li .navigate a:hover,
+.education ul li .navigate a:hover,
+.dropdownNavTeqdiqat ul li .navigate a:hover,
+.dropdownNavSosial ul li .navigate a:hover {
+  background-color: #001a39;
+  color: white;
+}
+
+.haqqimizda,
+.education,
+.teqdiqat,
+.sosial {
+  position: relative;
+}
+
+.haqqimizda:hover .dropdownNavHaqqimizda {
+  display: block;
+}
+
+.education:hover .dropdownNavEdu {
+  display: block;
+}
+
+.teqdiqat:hover .dropdownNavTeqdiqat {
+  display: block;
+}
+
+.sosial:hover .dropdownNavSosial {
+  display: block;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  padding: 24px;
+  width: 200px;
+  color: black;
+}
+.logo h4 {
+  font-size: 34px;
+  padding: 37px;
+  color: #1089ff;
+}
+
+.submit button {
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #1089ff;
+  color: #fff;
+  border: none;
+}
+
+.text {
+  text-align: right;
+  color: #8b2323;
+}
+
+.input::placeholder {
+  color: gray;
+}

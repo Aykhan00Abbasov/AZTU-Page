@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.dropdownNavHaqqimizda,
+.dropdownNavEdu,
+.dropdownNavTeqdiqat,
+.dropdownNavSosial {
+  display: none;
+  position: absolute;
+  left: -60px;
+  z-index: 1000;
+}
+
+.navigate {
+  background-color: #f9f9f9;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.dropdownNavHaqqimizda ul li .navigate a,
+.education ul li .navigate a,
+.dropdownNavTeqdiqat ul li .navigate a,
+.dropdownNavSosial ul li .navigate a {
+  font-size: 14px;
+  display: block;
+  color: black;
+  width: 200px;
+  padding: 5px;
+}
+
+.dropdownNavHaqqimizda ul li .navigate a:hover,
+.education ul li .navigate a:hover,
+.dropdownNavTeqdiqat ul li .navigate a:hover,
+.dropdownNavSosial ul li .navigate a:hover {
+  background-color: #001a39;
+  color: white;
+}
+
+.haqqimizda,
+.education,
+.teqdiqat,
+.sosial {
+  position: relative;
+}
+
+.haqqimizda:hover .dropdownNavHaqqimizda {
+  display: block;
+}
+
+.education:hover .dropdownNavEdu {
+  display: block;
+}
+
+.teqdiqat:hover .dropdownNavTeqdiqat {
+  display: block;
+}
+
+.sosial:hover .dropdownNavSosial {
+  display: block;
+}
+
+.bg {
+  height: 220px;
+  background-image: url("	https://www.aztu.edu.az/web_admin/upload/files/aztu.edu.az/menus/8-2022/cover-elaqe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  padding: 30px 0;
+  color: white;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn,
+#nav-check {
+  display: none;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  width: 130px;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.center h1 {
+  width: 750px;
+  color: #fff;
+  font-size: 40pxpx;
+  margin-left: 86px;
+  display: inline;
+}
+
+.contact-page {
+  max-width: 1100px;
+  margin: 60px auto 0;
+}
+
+.address {
+  margin: 40px 0;
+}
+
+.address ul {
+  list-style: none;
+}
+
+.address i {
+  margin: 10px;
+}
+
+.expand-panel {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.expand-panel ul {
+  list-style-type: none;
+}
+
+.expand-panel li a {
+  color: #272727;
+  font-size: 14px;
+}
+
+.sign img {
+  height: 60px;
+}
+
+.signoffooter {
+  margin-bottom: 40px;
+}
+
+.footer-top {
+  padding: 92px 0 50px;
+  background: #002147;
+}
+
+.text-left,
+center {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.text-left img {
+  width: 45%;
+}
+
+.social-medias {
+  margin: 0;
+  padding: 0;
+}
+
+.social-medias li {
+  display: inline-block;
+  margin: 10px 5px 16px;
+  font-size: 12px;
+}
+
+.social-medias a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  line-height: 27px;
+}
+
+.social p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.social {
+  text-align: center;
+}
+
+.contact {
+  color: #fff;
+  text-align: right;
+}
+
+.contact p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.copyright {
+  background-color: #001a39;
+  padding: 10px;
+  color: #999;
+}
+
+.copyright p {
+  margin: 10px 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg {
+    max-width: 768px;
+  }
+
+  .center {
+    margin-top: 16px;
+  }
+
+  .center h1 {
+    margin: 30px 0 0 20px;
+  }
+
+  .expand-panel .link {
+    width: 300px;
+  }
+
+  .text-left {
+    display: none;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav-btn span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  .nav {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav ul li {
+    display: block;
+    margin: 30px 0;
+  }
+
+  .nav a {
+    display: block;
+    width: 100%;
+  }
+
+  #nav-check:not(:checked) ~ .nav {
+    height: 0;
+  }
+
+  #nav-check:checked ~ .nav {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .map iframe {
+    max-width: 500px;
+  }
+
+  .map {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .address {
+    margin: 40px auto;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .map iframe {
+    max-width: 300px;
+  }
+
+  .map {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
